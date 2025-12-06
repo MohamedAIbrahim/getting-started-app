@@ -32,8 +32,8 @@ jobs:
           push: true
           context: .
           tags: | 
-            ghcr.io/${{ github.repository_owner }}/app:latest
-            ghcr.io/${{ github.repository_owner }}/app:${{ github.sha }}
+            ghcr.io/mohamedaibrahim/app:latest
+            ghcr.io/mohamedaibrahim/app:${{ github.sha }}
             
 
 
